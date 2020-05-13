@@ -5,10 +5,10 @@ Build the form in normal HTML5 format.  Make sure names of inputs match the Hubs
  
 Initialize form with ```new FormHandler(formId, hubKeys, fields, context ~optional)``` 
  
-formId is a string which should be the ID of the form 
-hubKeys is an object that contains the portalId and formId of your HubSpot form ie ```{portalId: hs-portalID, formId: hs-formId}```.  You can get these values from the embed snippet.  
-fields is an array of the field names.  This quickly finds the fields and values in your form on submit.  
-context is an object to provide context of hubspot capture.  This is optional, but helpfull for tracking  
+formId - a string which should be the ID of the form  
+hubKeys - an object that contains the portalId and formId of your HubSpot form ie ```{portalId: hs-portalID, formId: hs-formId}```.  You can get these values from the embed snippet.  
+fields - an array of the field names.  This quickly finds the fields and values in your form on submit.  
+context - an object to provide context of hubspot capture.  This is optional, but helpfull for tracking  
 
 
 
